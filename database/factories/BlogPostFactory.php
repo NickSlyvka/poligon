@@ -35,6 +35,7 @@ class BlogPostFactory extends Factory
                 ? $this->faker->dateTimeBetween('-2 month', '-1 days')
                 : null,
             'created_at' => $createdAt,
+            'updated_at' => $createdAt,
         ];
     }
 }

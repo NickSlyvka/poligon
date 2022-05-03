@@ -1,0 +1,27 @@
+
+  GET|HEAD        / .................................................................................................................................................................................................. 
+  GET|HEAD        _debugbar/assets/javascript ............................................................................................................ debugbar.assets.js › Barryvdh\Debugbar › AssetController@js
+  GET|HEAD        _debugbar/assets/stylesheets ......................................................................................................... debugbar.assets.css › Barryvdh\Debugbar › AssetController@css
+  DELETE          _debugbar/cache/{key}/{tags?} ................................................................................................... debugbar.cache.delete › Barryvdh\Debugbar › CacheController@delete
+  GET|HEAD        _debugbar/clockwork/{id} .................................................................................................. debugbar.clockwork › Barryvdh\Debugbar › OpenHandlerController@clockwork
+  GET|HEAD        _debugbar/open ............................................................................................................. debugbar.openhandler › Barryvdh\Debugbar › OpenHandlerController@handle
+  POST            _ignition/execute-solution ........................................................................................... ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutionController
+  GET|HEAD        _ignition/health-check ....................................................................................................... ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
+  POST            _ignition/update-config .................................................................................................... ignition.updateConfig › Spatie\LaravelIgnition › UpdateConfigController
+  GET|HEAD        api/user ........................................................................................................................................................................................... 
+  GET|HEAD        blog/posts ............................................................................................................................................ blog.posts.index › Blog\PostController@index
+  POST            blog/posts ............................................................................................................................................ blog.posts.store › Blog\PostController@store
+  GET|HEAD        blog/posts/create ................................................................................................................................... blog.posts.create › Blog\PostController@create
+  GET|HEAD        blog/posts/{post} ....................................................................................................................................... blog.posts.show › Blog\PostController@show
+  PUT|PATCH       blog/posts/{post} ................................................................................................................................... blog.posts.update › Blog\PostController@update
+  DELETE          blog/posts/{post} ................................................................................................................................. blog.posts.destroy › Blog\PostController@destroy
+  GET|HEAD        blog/posts/{post}/edit .................................................................................................................................. blog.posts.edit › Blog\PostController@edit
+  GET|HEAD        rest ..................................................................................................................................................... restTest.index › RestTestController@index
+  POST            rest ..................................................................................................................................................... restTest.store › RestTestController@store
+  GET|HEAD        rest/create ............................................................................................................................................ restTest.create › RestTestController@create
+  GET|HEAD        rest/{rest} ................................................................................................................................................ restTest.show › RestTestController@show
+  PUT|PATCH       rest/{rest} ............................................................................................................................................ restTest.update › RestTestController@update
+  DELETE          rest/{rest} .......................................................................................................................................... restTest.destroy › RestTestController@destroy
+  GET|HEAD        rest/{rest}/edit ........................................................................................................................................... restTest.edit › RestTestController@edit
+  GET|HEAD        sanctum/csrf-cookie .................................................................................................................................... Laravel\Sanctum › CsrfCookieController@show
+

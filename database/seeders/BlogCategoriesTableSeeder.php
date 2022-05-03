@@ -24,7 +24,7 @@ class BlogCategoriesTableSeeder extends Seeder
             'parent_id' => 0,
         ];
 
-        for ($i = 1; $i < 10; $i++) {
+        for ($i = 1; $i <= 10; $i++) {
             $cName = 'Категория #'.$i;
             $parent_id = ($i > 4) ? rand(1, 4) : 1;
 
